@@ -1,0 +1,36 @@
+YOUTUBE TRENDING ANALYSIS - KLJUČNI REZULTATI
+============================================================
+
+DATASET
+Početni broj zapisa: 268787
+Broj zapisa nakon čišćenja: 268704
+Broj različitih videa: 47142
+Broj originalnih varijabli: 16
+Period objave: 2020-2024
+Period trending podataka: 2020-2024
+
+GLAVNI EDA REZULTATI
+Medijan vremena do prvog trendinga: 1 dan
+Najčešća kategorija: Entertainment
+Broj zapisa najčešće kategorije: 53920
+Najveći medijan engagementa: Comedy
+Medijan engagementa: 7.59%
+Najveći medijan pregleda: Music
+Medijan pregleda: 1,390,002
+Korelacija pregleda i lajkova: 0.802
+Korelacija pregleda i engagementa: -0.031
+
+MACHINE LEARNING
+Glavni model: Random Forest
+Accuracy: 66.78%
+Precision: 62.27%
+Recall: 85.17%
+F1-score: 71.94%
+Najvažnija varijabla: categoryId
+Važnost najvažnije varijable: 82.76%
+
+ISTRAŽIVAČKO PITANJE
+Koje karakteristike YouTube videa najviše utiču na njihovu popularnost i engagement, te koliko uspješno možemo predvidjeti visoki engagement?
+
+HIPOTEZA
+H1: Kategorija videa značajno je povezana s nivoom engagementa i predstavlja važan prediktor visokog engagementa.
